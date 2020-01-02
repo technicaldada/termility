@@ -1,7 +1,7 @@
 # Termility
-[![GitHub issues](https://img.shields.io/github/issues/technicaldada/hackerpro.svg)](https://github.com/technicaldada/termility/issues)
-[![GitHub forks](https://img.shields.io/github/forks/technicaldada/hackerpro.svg)](https://github.com/technicaldada/termility/network)
-[![GitHub stars](https://img.shields.io/github/stars/technicaldada/hackerpro.svg)](https://github.com/technicaldada/termility/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/technicaldada/termility.svg)](https://github.com/technicaldada/termility/issues)
+[![GitHub forks](https://img.shields.io/github/forks/technicaldada/termility.svg)](https://github.com/technicaldada/termility/network)
+[![GitHub stars](https://img.shields.io/github/stars/technicaldada/termility.svg)](https://github.com/technicaldada/termility/stargazers)
 Termility is a Terminal Utility for Linux Terminal lovers. Dedicated to all command line Lovers.
 
 This is a simple and colorful bash script. It makes lots of fun Linux terminal.
