@@ -6,7 +6,7 @@ Termility is a Terminal Utility for Linux Terminal lovers. Dedicated to all comm
 
 This is a simple and colorful bash script. It makes lots of fun Linux terminal.
 
-## HACKERPRO Menu :
+## Terminal Ulility :
 
 - Check the Weather Forcast
 - Check for External IP
@@ -22,3 +22,17 @@ Open Terminal and Type : ```git clone https://github.com/technicaldada/termility
 After Downloading The File Type : ```cd termility && cdmod +x termility.sh```
 
 Run it using: ```./termility.sh```
+
+## License :
+
+[MIT Licence](https://github.com/technicaldada/termility/blob/master/LICENSE)
+
+Thats It... If You Like This Repo. Please Share This With Your Friends..
+
+& Don't Forget To Visit Our [Blog For Hackers](https://www.kalilinux.in) !!!
+
+***Thankyou.***
+***Keep Visiting..***
+***Check our blog https://www.kalilinux.in***
+***Enjoy.!!! :)***
+<a href="https://www.kalilinux.in/" rel="dofollwo">Click Here</a>
