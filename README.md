@@ -9,12 +9,12 @@ This is a simple and colorful bash script. It makes lots of fun Linux terminal.
 
 ## Terminal Ulility :
 
-- Check the Weather Forcast
-- Check for External IP
-- Upload a File
-- Expand Short URLs
-- Watch Star Wars in Terminal
-- Download YouTube Video
+- ***Check the Weather Forcast
+- ***Check for External IP
+- ***Upload a File
+- ***Expand Short URLs
+- **Watch Star Wars in Terminal
+- ***Download YouTube Video
 
 ## Installation in Linux and Termux:
 
@@ -32,7 +32,7 @@ Thats It... If You Like This Repo. Please Share This With Your Friends..
 
 & Don't Forget To Visit Our [Blog For Hackers](https://www.kalilinux.in) !!!
 
-***Thankyou.***
+***Thank you.***
 ***Keep Visiting..***
 ***Check our blog https://www.kalilinux.in***
 ***Enjoy.!!! :)***
