@@ -3,18 +3,18 @@
 [![GitHub forks](https://img.shields.io/github/forks/technicaldada/termility.svg)](https://github.com/technicaldada/termility/network)
 [![GitHub stars](https://img.shields.io/github/stars/technicaldada/termility.svg)](https://github.com/technicaldada/termility/stargazers)
 
-Termility is a Terminal Utility for Linux Terminal lovers. Dedicated to all command line Lovers.
+***Termility*** is a Terminal Utility for Linux Terminal lovers. Dedicated to all command line Lovers.
 
-This is a simple and colorful bash script. It makes lots of fun Linux terminal.
+This is a simple and colorful bash script. It makes lots of fun in Terminal.
 
-## Terminal Ulility :
+## Terminal Ulility (Termility) Features :
 
 - ***Check the Weather Forcast***
 - ***Check for External IP***
 - ***Upload a File***
 - ***Expand Short URLs***
 - ***Watch Star Wars in Terminal***
-- ***Download YouTube Video***
+- ***Download YouTube/Facebook Video***
 
 ## Installation in Linux and Termux:
 
