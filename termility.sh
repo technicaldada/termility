@@ -104,7 +104,7 @@ sleep 1
 echo ""
 echo -e "\e[1;42;32m Trimility is made by Technical Dada (KP) \e[0m"
 echo ""
-echo -e "\e[1;31;42m Please visit https://www.kalilinux.in \e[0m"
+echo -e "\e[1;31;42m Trimility is made by Technical Dada (KP) \e[0m"
 exit 0
 else
 echo -e "\e[1;4mOpps.. Please select valid option\e[0m"
@@ -114,7 +114,7 @@ sleep 2
 echo "Thanks for use the Tirmility"
 echo "Please use valid input Next time"
 echo ""
-echo -e "\e[1;42;32m Trimility is made by Technical Dada (KP) \e[0m"
+echo -e "\e[1;31;42m Trimility is made by Technical Dada (KP) \e[0m"
 echo ""
 echo -e "\e[1;31;42m Please visit https://www.kalilinux.in \e[0m"
 fi
