@@ -1,8 +1,8 @@
 #!/bin/bash
-echo -e "\e[36m###############################################\e[0m"
+echo -e "\e[36m############################################### \e[0m"
 toilet -f smblock --filter border:metal "Termility"
-echo -e "\e[36m###############################################\e[0m"
-echo -e "\e[1;31;42m############# ©Technical Dada (KP) ############\e[0m"
+echo -e "\e[36m############################################### \e[0m"
+echo -e "\e[1;31;42m############# ©Technical Dada (KP) ############ \e[0m"
 echo -e "\e[36m###############################################\e[0m"
 echo -e "\e[40;38;5;82m Please Visit \e[30;48;5;82m https://www.kalilinux.in \e[0m"
 echo ""
@@ -29,23 +29,28 @@ echo ""
 echo -e "\e[92m7. Exit \e[0m"
 echo ""
 echo -e "\e[4mPlease select a number \e[24m:"
-KP='sh termility.sh'
+KP='./termility.sh'
 read OPT
 if [ "$OPT" -eq 1 ]
 then
 echo -e "\e[31mName of Your City: \e[0m"
+echo ""
+echo -e "\e[31mPlease use portait or fullscreen mode for better result.\e[0m"
+sleep 3
 read LOC
 curl wttr.in/$LOC
+sleep 10
 echo ""
 $KP
 elif [ "$OPT" -eq 2 ]
 then
 curl ipinfo.io
+sleep 5
 echo ""
 $KP
 elif [ "$OPT" -eq 3 ]
 then
-echo -e"\e[33mBlocked files: application, Executable, Android APKs and system images \e[0m"
+echo -e "\e[33mBlocked files: application, Executable, Android APKs and system images \e[0m"
 echo ""
 echo -e "\e[33mEnter name and location of the File ( Ex: /root/common.txt): Max size = 512MiB \e[0m"
 read path
@@ -67,7 +72,7 @@ $KP
 elif [ "$OPT" -eq 5 ]
 then
 echo -e "\e[36mStar Wars starts in 7 seconds..\e[0m"
-echo  -e "\e[93mTo stop the animation, press ctrl+] ,After that type 'quit' to exit telnet. \e[0m"
+echo -e "\e[93mTo stop the animation, press ctrl+] ,After that type 'quit' to exit telnet. \e[0m"
 sleep 7
 telnet towel.blinkenlights.nl
 elif [ "$OPT" -eq 6 ]
