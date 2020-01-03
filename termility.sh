@@ -24,7 +24,7 @@ echo -e "\e[35m4. Expand Short URL: \e[0m"
 echo ""
 echo -e "\e[36m5. Watch Star Wars in Terminal: \e[0m"
 echo ""
-echo -e "\e[34m6. Download Youtube Videos: \e[0m"
+echo -e "\e[34m6. Download Youtube/Facebook Videos: \e[0m"
 echo ""
 echo -e "\e[92m7. Exit \e[0m"
 echo ""
@@ -83,14 +83,14 @@ echo ""
   FILE=/usr/local/bin/youtube-dl
   if [ -f "$FILE" ]; then
     echo "We are ready to go"
-    echo -e "\e[34mPaste Youtube link here: \e[0m"
+    echo -e "\e[34mPaste Youtube/Facebiik video link here: \e[0m"
     read YT
     youtube-dl $YT
   else
     echo "Installing Requirements..."
      wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
     echo "Sucesslully installed"
-    echo -e "\e[34mPaste Youtube links here: \e[0m"
+    echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
     read YT2
     youtube-dl $YT2
   fi
@@ -102,7 +102,7 @@ sleep 2
 echo -e "\e[41mThanks for using Tirmility.\e[0m"
 sleep 1
 echo ""
-echo "Trimility is made by KP"
+echo "\e[1;42;32m Trimility is made by Technical Dada (KP) \e[0m"
 echo ""
 echo -e "\e[1;31;42m Please visit https://www.kalilinux.in \e[0m"
 exit 0
@@ -112,6 +112,9 @@ echo ""
 echo "Exiting..."
 sleep 2
 echo "Thanks for use the Tirmility"
+echo "Please use valid input Next time"
+echo ""
+echo "\e[1;42;32m Trimility is made by Technical Dada (KP) \e[0m"
 echo ""
 echo -e "\e[1;31;42m Please visit https://www.kalilinux.in \e[0m"
 fi
