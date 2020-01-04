@@ -79,14 +79,35 @@ sleep 7
 telnet towel.blinkenlights.nl
 elif [ "$OPT" -eq 6 ]
 then
+echo -e "\e[32m1.For Linux (Debian-based) \e[0m"
 echo ""
-echo "Updating Requirements..."
-sleep 2
+echo -e "\e[33m2.For Android (Termux) \e[0m"
 echo ""
-apt-get install youtube-dl -y
-echo -e "\e[34m Paste Youtube/Facebook video link here: \e[0m"
-read YT
-youtube-dl $YT
+read SYS
+ if [ "$SYS" -eq 1 ]
+    then
+    echo ""
+    echo "Updating Requirements..."
+    sleep 2
+    echo ""
+    apt-get install youtube-dl -y
+    echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
+    read YT
+    youtube-dl $YT
+    echo ""
+    
+ elif [ "$SYS" -eq 2 ]
+    then
+    echo ""
+    echo "Updating Requirements..."
+    echo ""
+    pkg install python -y
+    pip install youtube-dl
+    echo ""
+    echo "Paste YouTube/Facebook video Link here :"
+    read YT2
+    youtube-dl $YT2
+ fi
 echo ""
 $KP
 echo ""
