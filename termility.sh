@@ -26,7 +26,9 @@ echo -e "\e[36m5. Watch Star Wars in Terminal: \e[0m"
 echo ""
 echo -e "\e[34m6. Download Youtube/Facebook Videos: \e[0m"
 echo ""
-echo -e "\e[92m7. Exit \e[0m"
+echo -e "\e[34m7. Other Terminal utility \e[0m"
+echo ""
+echo -e "\e[92m8. Exit \e[0m"
 echo ""
 echo -e "\e[4mPlease select a number \e[24m:"
 KP='./termility.sh'
@@ -77,26 +79,60 @@ sleep 7
 telnet towel.blinkenlights.nl
 elif [ "$OPT" -eq 6 ]
 then
-echo -e "\e[34mChecking for requirements.../e[0m"
+echo ""
+echo "Updating Requirements..."
 sleep 2
 echo ""
-  FILE=/usr/local/bin/youtube-dl
-  if [ -f "$FILE" ]; then
-    echo "We are ready to go"
-    echo -e "\e[34mPaste Youtube/Facebiik video link here: \e[0m"
-    read YT
-    youtube-dl $YT
-  else
-    echo "Installing Requirements..."
-     wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
-    echo "Sucesslully installed"
-    echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
-    read YT2
-    youtube-dl $YT2
-  fi
+apt-get install youtube-dl -y
+echo -e "\e[34m Paste Youtube/Facebook video link here: \e[0m"
+read YT
+youtube-dl $YT
 echo ""
 $KP
+echo ""
 elif [ "$OPT" -eq 7 ]
+then
+echo -e "\e[34mOther Terminal Utility :\e[0m"
+echo ""
+echo -e "\e[32m1. Matrix Terminal: \e[0m"
+echo ""
+echo -e "\e[33m2. System Monitor: \e[0m"
+echo ""
+echo -e "\e[35m3. Midnight Commander (File Manager) : \e[0m"
+read OPT2
+ if [ "$OPT2" -eq 1 ]
+ then
+ echo ""
+    echo "Checks for Updates..."
+    sleep 2
+    sudo apt-get install cmatrix -y
+    echo ""
+    echo "\e[32mStarting Matrix Terminal... \e[0m"
+    sleep 2
+    cmatrix -r -u 10
+ elif [ "$OPT2" -eq 2 ]
+ then
+ echo ""
+    echo "Checks for Updates..."
+    sleep 2
+    sudo apt-get install htop -y
+    echo ""
+    echo "\e[33mStarting System Monitor... \e[0m"
+    sleep 2
+    htop
+ elif [ "$OPT2" -eq 3 ]
+ then
+ echo ""
+    echo "Checks for Updates..."
+    sleep 2
+    sudo apt-get install mc -y
+    echo ""
+    echo "\e[35mStarting File Manager... \e[0m"
+    sleep 2
+    mc 
+ fi
+echo ""
+elif [ "$OPT" -eq 8 ]
 then
 sleep 2
 echo -e "\e[41mThanks for using Tirmility.\e[0m"
