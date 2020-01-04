@@ -96,7 +96,7 @@ read SYS
     youtube-dl $YT
     echo ""
     
- elif [ "$SYS" -eq 2 ]
+    elif [ "$SYS" -eq 2 ]
     then
     echo ""
     echo "Updating Requirements..."
@@ -107,6 +107,8 @@ read SYS
     echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
     read YT2
     youtube-dl $YT2
+  else
+  echo "Please Select from the options available"
  fi
 echo ""
 $KP
