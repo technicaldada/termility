@@ -157,7 +157,15 @@ read OPT2
     echo -e "\e[35mStarting File Manager... \e[0m"
     sleep 2
     mc 
+  else
+  echo "Please Select from the options available"
+  sleep 2
+  echo ""
+  echo "Back to the Main Menu"
+  sleep 2
+  $KP
  fi
+ 
 echo ""
 elif [ "$OPT" -eq 8 ]
 then
