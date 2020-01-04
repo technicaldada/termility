@@ -132,7 +132,7 @@ read OPT2
  echo ""
     echo "Checks for Updates..."
     sleep 2
-    sudo apt-get install cmatrix -y
+    apt-get install cmatrix -y
     echo ""
     echo -e "\e[32mStarting Matrix Terminal... \e[0m"
     sleep 2
@@ -142,7 +142,7 @@ read OPT2
  echo ""
     echo "Checks for Updates..."
     sleep 2
-    sudo apt-get install htop -y
+    apt-get install htop -y
     echo ""
     echo -e "\e[33mStarting System Monitor... \e[0m"
     sleep 2
@@ -152,7 +152,7 @@ read OPT2
  echo ""
     echo "Checks for Updates..."
     sleep 2
-    sudo apt-get install mc -y
+    apt-get install mc -y
     echo ""
     echo -e "\e[35mStarting File Manager... \e[0m"
     sleep 2
