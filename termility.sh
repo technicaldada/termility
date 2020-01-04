@@ -110,6 +110,7 @@ read SYS
   else
   echo "Please Select from the options available"
   sleep 2
+  echo ""
   echo "Back to the Main Menu"
   sleep 2
  fi
