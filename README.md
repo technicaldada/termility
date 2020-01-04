@@ -1,4 +1,4 @@
-# Termility Terminal-Utility
+# Termility (Terminal-Utility)
 
 [![GitHub stars](https://img.shields.io/github/stars/technicaldada/termility.svg)](https://github.com/technicaldada/termility/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/technicaldada/termility.svg)](https://github.com/technicaldada/termility/network)
