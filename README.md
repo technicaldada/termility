@@ -16,6 +16,7 @@ This is a simple and colorful bash script. It makes lots of fun in Terminal.
 - ***Expand Short URLs***
 - ***Watch Star Wars in Terminal***
 - ***Download YouTube/Facebook Video***
+- ***Other Terminal Utilities***
 
 ## Installation in Linux and Termux:
 
