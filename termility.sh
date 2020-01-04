@@ -107,7 +107,7 @@ read OPT2
     sleep 2
     sudo apt-get install cmatrix -y
     echo ""
-    echo "\e[32mStarting Matrix Terminal... \e[0m"
+    echo -e "\e[32mStarting Matrix Terminal... \e[0m"
     sleep 2
     cmatrix -r -u 10
  elif [ "$OPT2" -eq 2 ]
@@ -117,7 +117,7 @@ read OPT2
     sleep 2
     sudo apt-get install htop -y
     echo ""
-    echo "\e[33mStarting System Monitor... \e[0m"
+    echo -e "\e[33mStarting System Monitor... \e[0m"
     sleep 2
     htop
  elif [ "$OPT2" -eq 3 ]
@@ -127,7 +127,7 @@ read OPT2
     sleep 2
     sudo apt-get install mc -y
     echo ""
-    echo "\e[35mStarting File Manager... \e[0m"
+    echo -e "\e[35mStarting File Manager... \e[0m"
     sleep 2
     mc 
  fi
