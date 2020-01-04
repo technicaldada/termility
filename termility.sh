@@ -104,7 +104,7 @@ read SYS
     pkg install python -y
     pip install youtube-dl
     echo ""
-    echo "Paste YouTube/Facebook video Link here :"
+    echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
     read YT2
     youtube-dl $YT2
  fi
