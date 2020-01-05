@@ -1,6 +1,5 @@
 # Termility (Terminal-Utility)
-
-[![GitHub stars] <a href="https://www.kalilinux.in"><img src="https://img.shields.io/github/stars/technicaldada/termility?style=social" /></a>
+<a href="https://www.kalilinux.in"><img src="https://img.shields.io/github/stars/technicaldada/termility?style=social" /></a>
 [![GitHub forks](https://img.shields.io/github/forks/technicaldada/termility.svg)](https://github.com/technicaldada/termility/network)
 [![GitHub issues](https://img.shields.io/github/issues/technicaldada/termility.svg)](https://github.com/technicaldada/termility/issues)
  <a href="https://www.kalilinux.in"><img src="https://img.shields.io/github/languages/top/technicaldada/termility" /></a>
