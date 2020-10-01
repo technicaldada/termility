@@ -20,15 +20,17 @@ echo -e "\e[32m2. Check for External IP: \e[0m"
 echo ""
 echo -e "\e[33m3. Upload a File: \e[0m"
 echo ""
-echo -e "\e[35m4. Expand Short URL: \e[0m"
+echo -e "\e[29m4. URL Shortner: \e[0m"
 echo ""
-echo -e "\e[36m5. Watch Star Wars in Terminal: \e[0m"
+echo -e "\e[35m5. Expand Short URL: \e[0m"
 echo ""
-echo -e "\e[34m6. Download Youtube/Facebook Videos: \e[0m"
+echo -e "\e[36m6. Watch Star Wars in Terminal: \e[0m"
 echo ""
-echo -e "\e[34m7. Other Terminal utility \e[0m"
+echo -e "\e[34m7. Download Youtube/Facebook Videos: \e[0m"
 echo ""
-echo -e "\e[92m8. Exit \e[0m"
+echo -e "\e[34m8. Other Terminal utility \e[0m"
+echo ""
+echo -e "\e[92m9. Exit \e[0m"
 echo ""
 echo -e "\e[4mPlease select a number \e[24m:"
 KP='./termility.sh'
@@ -62,7 +64,19 @@ echo -e "\e[90mFile URLs are valid for at least 30 days to a year. \e[0m"
 sleep 10
 echo ""
 $KP
+
 elif [ "$OPT" -eq 4 ]
+then
+echo -e "\e[35mPaste your long URL here: \e[0m"
+read longurl
+short=$(curl -s https://da.gd/s/?url=${longurl})
+echo -e "\e[35mSucessfully shorted the link..\e[0m"
+echo $short
+sleep 10
+echo ""
+$KP
+
+elif [ "$OPT" -eq 5 ]
 then
 echo -e "\e[35mPaste your short URL here: \e[0m"
 read URL
@@ -71,13 +85,13 @@ echo -e "\e[35mSucessfully located source URL location..\e[0m"
 sleep 10
 echo ""
 $KP
-elif [ "$OPT" -eq 5 ]
+elif [ "$OPT" -eq 6 ]
 then
 echo -e "\e[36mStar Wars starts in 7 seconds..\e[0m"
 echo -e "\e[93mTo stop the animation, press ctrl+] ,After that type 'quit' to exit telnet. \e[0m"
 sleep 7
 telnet towel.blinkenlights.nl
-elif [ "$OPT" -eq 6 ]
+elif [ "$OPT" -eq 7 ]
 then
 echo -e "\e[32m1.For Linux (Debian-based) \e[0m"
 echo ""
@@ -117,7 +131,7 @@ read SYS
 echo ""
 $KP
 echo ""
-elif [ "$OPT" -eq 7 ]
+elif [ "$OPT" -eq 8 ]
 then
 echo -e "\e[34mOther Terminal Utility :\e[0m"
 echo ""
@@ -135,17 +149,17 @@ read OPT2
     apt-get install cmatrix -y
     echo ""
     echo -e "\e[32mStarting Matrix Terminal... \e[0m"
-    sleep 2
+    sleep 1
     cmatrix -r -u 10
  elif [ "$OPT2" -eq 2 ]
  then
  echo ""
     echo "Checks for Updates..."
-    sleep 2
+    sleep 1
     apt-get install htop -y
     echo ""
     echo -e "\e[33mStarting System Monitor... \e[0m"
-    sleep 2
+    sleep 1
     htop
  elif [ "$OPT2" -eq 3 ]
  then
@@ -167,7 +181,7 @@ read OPT2
  fi
  
 echo ""
-elif [ "$OPT" -eq 8 ]
+elif [ "$OPT" -eq 9 ]
 then
 sleep 2
 echo -e "\e[41mThanks for using Tirmility.\e[0m"
