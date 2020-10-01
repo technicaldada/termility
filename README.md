@@ -14,6 +14,7 @@ This is a simple and colorful bash script. It makes lots of fun in Terminal.
 - ***Check the Weather Forcast***
 - ***Check for External IP***
 - ***Upload a File***
+- ***URL Shortner***
 - ***Expand Short URLs***
 - ***Watch Star Wars in Terminal***
 - ***Download YouTube/Facebook Video***
@@ -23,7 +24,7 @@ This is a simple and colorful bash script. It makes lots of fun in Terminal.
 
 Open Terminal and Type : ```git clone https://github.com/technicaldada/termility.git```
 
-After Downloading The File Type : ```cd termility && cdmod +x termility.sh```
+After Downloading Navigate to the directory : ```cd termility```
 
 Run it using: ```./termility.sh```
 
