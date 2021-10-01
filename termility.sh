@@ -2,7 +2,7 @@
 echo -e "\e[36m############################################### \e[0m"
 toilet -f smblock --filter border:metal "Termility"
 echo -e "\e[36m############################################### \e[0m"
-echo -e "\e[1;31;42m############# ©Technical Dada (KP) ############ \e[0m"
+echo -e "\e[1;31;42m############# ©Koushik Pal (KP) ############ \e[0m"
 echo -e "\e[36m###############################################\e[0m"
 echo -e "\e[40;38;5;82m Please Visit \e[30;48;5;82m https://www.kalilinux.in \e[0m"
 echo ""
@@ -56,7 +56,7 @@ elif [ "$OPT" -eq 3 ]
 then
 echo -e "\e[33mBlocked files: application, Executable, Android APKs and system images \e[0m"
 echo ""
-echo -e "\e[33mEnter name and location of the File ( Ex: /root/common.txt): Max size = 512MiB \e[0m"
+echo -e "\e[33mEnter name and location of the File ( Ex: /location/common.txt): Max size = 512MiB \e[0m"
 read path
 curl -F'file=@'$path'' http://0x0.st
 echo -e "\e[90mThe above link is for the file.\e[0m"
@@ -69,7 +69,7 @@ elif [ "$OPT" -eq 4 ]
 then
 echo -e "\e[35mPaste your long URL here: \e[0m"
 read longurl
-short=$(curl -s https://da.gd/s/?url=${longurl})
+short=$(curl -s https://is.gd/s/?url=${longurl})
 echo -e "\e[35mSucessfully shorted the link..\e[0m"
 echo $short
 sleep 10
@@ -102,33 +102,34 @@ read SYS
     then
     echo ""
     echo "Updating Requirements..."
-    sleep 2
-    echo ""
-    apt-get install youtube-dl -y
-    echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
-    read YT
-    youtube-dl $YT
-    echo ""
+    echo "Use of Youtube-dl is closed due to copyright from Youtube"
+    #sleep 2
+    #echo ""
+    #apt-get install youtube-dl -y
+    #echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
+    #read YT
+    #youtube-dl $YT
+    #echo ""
     
-    elif [ "$SYS" -eq 2 ]
-    then
-    echo ""
-    echo "Updating Requirements..."
-    echo ""
-    pkg install python -y
-    pip install youtube-dl
-    echo ""
-    echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
-    read YT2
-    youtube-dl $YT2
-  else
-  echo "Please Select from the options available"
-  sleep 2
-  echo ""
-  echo "Back to the Main Menu"
-  sleep 2
- fi
-echo ""
+    #elif [ "$SYS" -eq 2 ]
+    #then
+    #echo ""
+    #echo "Updating Requirements..."
+    #echo ""
+    #pkg install python -y
+    #pip install youtube-dl
+    #echo ""
+    #echo -e "\e[34mPaste Youtube/Facebook video link here: \e[0m"
+    #read YT2
+    #youtube-dl $YT2
+  #else
+  #echo "Please Select from the options available"
+  #sleep 2
+  #echo ""
+ # echo "Back to the Main Menu"
+  #sleep 2
+# fi
+#echo ""
 $KP
 echo ""
 elif [ "$OPT" -eq 8 ]
@@ -187,7 +188,7 @@ sleep 2
 echo -e "\e[41mThanks for using Tirmility.\e[0m"
 sleep 1
 echo ""
-echo "Trimility is made by Technical Dada (KP)"
+echo "Trimility is made by Koushik Pal (KP)"
 echo ""
 echo -e "\e[1;31;42m Please visit https://www.kalilinux.in \e[0m"
 exit 0
@@ -200,7 +201,7 @@ echo ""
 echo -e "\e[41mThanks for using Tirmility.\e[0m"
 echo "Please use valid input Next time"
 echo ""
-echo "Trimility is made by Technical Dada (KP)"
+echo "Trimility is made by Koushik Pal (KP)"
 echo ""
 echo -e "\e[1;31;42m Please visit https://www.kalilinux.in \e[0m"
 fi
