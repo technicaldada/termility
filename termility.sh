@@ -60,7 +60,7 @@ echo -e "\e[33mEnter name and location of the File ( Ex: /location/common.txt): 
 read path
 curl -F'file=@'$path'' http://0x0.st
 echo -e "\e[90mThe above link is for the file.\e[0m"
-echo -e "\e[90mFile URLs are valid for at least 30 days to a year. \e[0m"
+echo -e "\e[90mFile URLs are valid for at least 30 days a year. \e[0m"
 sleep 10
 echo ""
 $KP
