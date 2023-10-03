@@ -9,7 +9,7 @@ echo ""
 sleep 1
 echo -e "Welcome to \e[5mTerminity \e[25m."
 echo ""
-echo "Termility is Terminal Utility"
+echo "Termility is Terminal Utility, Swiss Army Knife on Terminal"
 echo ""
 sleep 2
 echo -e "\e[4mPlease select an option \e[24m:"
